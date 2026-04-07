@@ -34,12 +34,12 @@ let package = Package(
         .binaryTarget(
             name: "RenderBlockView",
             url: baseURL + "RenderBlockView.xcframework.zip",
-            checksum: "590cb7439cd4e8bc9778564cac9043af96386f9b56ad4ca1a4efad99b63ae5e8"
+            checksum: "ca6efe013f3630f4ce6e392cd6b8df3216e0b6b8bbdaee895d132121cd885bdf"
         ),
         .binaryTarget(
             name: "RenderBlockRuntime",
             url: baseURL + "RenderBlockRuntime.xcframework.zip",
-            checksum: "ca6efe013f3630f4ce6e392cd6b8df3216e0b6b8bbdaee895d132121cd885bdf"
+            checksum: "590cb7439cd4e8bc9778564cac9043af96386f9b56ad4ca1a4efad99b63ae5e8"
         ),
     ]
 )
