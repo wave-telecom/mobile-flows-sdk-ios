@@ -24,22 +24,22 @@ let package = Package(
         .binaryTarget(
             name: "RenderBlockCore",
             url: baseURL + "RenderBlockCore.xcframework.zip",
-            checksum: "98313c2b2b2df0da627b81360c42bb577a0cad7c4db3c8d4d7448a5eb8f6db8b"
+            checksum: "5c2366d44bbedb2278ec86f07d6683998b5d0af13093bc4f88c392e0023368fa"
         ),
         .binaryTarget(
             name: "RenderBlockNetwork",
             url: baseURL + "RenderBlockNetwork.xcframework.zip",
-            checksum: "96db9a3858c539e8e750a9c195ddb5a571ecc9207c6050b4b563c5856c534f50"
+            checksum: "9ba7a44d7e58ec8577c2c7427ec992bebc9a364f17c5abf90f8ca217ee4028ec"
         ),
         .binaryTarget(
             name: "RenderBlockView",
             url: baseURL + "RenderBlockView.xcframework.zip",
-            checksum: "00e0009bfd50d8330c5ec00c7e7f2a3c01811b5b7d523b27afe0586267226459"
+            checksum: "590cb7439cd4e8bc9778564cac9043af96386f9b56ad4ca1a4efad99b63ae5e8"
         ),
         .binaryTarget(
             name: "RenderBlockRuntime",
             url: baseURL + "RenderBlockRuntime.xcframework.zip",
-            checksum: "7e51a6e7c4426158deeb8114d1900579463850dd70798e1dfb741b84a301955f"
+            checksum: "ca6efe013f3630f4ce6e392cd6b8df3216e0b6b8bbdaee895d132121cd885bdf"
         ),
     ]
 )
