@@ -3,7 +3,7 @@
 // Atualize `version` e os checksums a cada nova release.
 import PackageDescription
 
-let version = "v1.1.1"
+let version = "v1.1.2"
 let baseURL = "https://github.com/wave-telecom/mobile-flows-sdk-ios/releases/download/\(version)/"
 
 let package = Package(
@@ -24,22 +24,22 @@ let package = Package(
         .binaryTarget(
             name: "RenderBlockCore",
             url: baseURL + "RenderBlockCore.xcframework.zip",
-            checksum: "9f1aacd9cc387eb229d5dbf1b9a70fd28afc59051291c50d336f8912ce8298a4"
+            checksum: "8949f60f3e6daa072a474bc575906f7f753b4657ae22e44ff2528bcc2ff0a735"
         ),
         .binaryTarget(
             name: "RenderBlockNetwork",
             url: baseURL + "RenderBlockNetwork.xcframework.zip",
-            checksum: "b9a352f7679151ecbc53b943fb0749914cdad9c33f2135b9ddbd1e89daebd6f7"
+            checksum: "41f2170fcb173c99225d190af616ebd521b7a5da97b09db65b59fca17681b157"
         ),
         .binaryTarget(
             name: "RenderBlockView",
             url: baseURL + "RenderBlockView.xcframework.zip",
-            checksum: "fc51faff7c9c35531381a924aa3a5bde34e279c79705cfb87ca003935c355a17"
+            checksum: "2f7668e14a2f4f2ef6475915a0badd1b733d564dea8e2abe400970ec9f80924c"
         ),
         .binaryTarget(
             name: "RenderBlockRuntime",
             url: baseURL + "RenderBlockRuntime.xcframework.zip",
-            checksum: "1d88dbb6370adb866d4ee965ac34953da170de1d2ad2dd13f6ed359655b7c781"
+            checksum: "c05a2dadca4baee10047a258c0bcf5dce7f35d717afdb90f31c32d0ee6b7a635"
         ),
     ]
 )
